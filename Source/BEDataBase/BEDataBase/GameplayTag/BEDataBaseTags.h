@@ -14,7 +14,12 @@ UE_DECLARE_GAMEPLAY_TAG_EXTERN(TAG_DataBase_Fighter);
 ////////////////////////////////////
 // DataBase.Weapon
 
-UE_DECLARE_GAMEPLAY_TAG_EXTERN(TAG_DataBase_Weapon);
+UE_DECLARE_GAMEPLAY_TAG_EXTERN(TAG_DataBase_Weapon_AttackRadius);
+UE_DECLARE_GAMEPLAY_TAG_EXTERN(TAG_DataBase_Weapon_AttackDistance);
+UE_DECLARE_GAMEPLAY_TAG_EXTERN(TAG_DataBase_Weapon_AttackSpeed);
+UE_DECLARE_GAMEPLAY_TAG_EXTERN(TAG_DataBase_Weapon_AttackDamage);
+UE_DECLARE_GAMEPLAY_TAG_EXTERN(TAG_DataBase_Weapon_HeadMultiply);
+UE_DECLARE_GAMEPLAY_TAG_EXTERN(TAG_DataBase_Weapon_Misc);
 
 
 ////////////////////////////////////

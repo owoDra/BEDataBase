@@ -1,4 +1,4 @@
-// Copyright (C) 2024 owoDra
+ï»¿// Copyright (C) 2024 owoDra
 
 #pragma once
 
@@ -10,7 +10,7 @@
 
 
 /** 
- * ƒf[ƒ^ƒx[ƒX‚É“o˜^‚·‚é(‚µ‚½)‘•”õ‚Ìî•ñ
+ * ãƒ‡ãƒ¼ã‚¿ãƒ™ãƒ¼ã‚¹ã«ç™»éŒ²ã™ã‚‹(ã—ãŸ)è£…å‚™ã®æƒ…å ±
  */
 USTRUCT(BlueprintType)
 struct BEDATABASE_API FBEEquipDataBaseEntry : public FTableRowBase
@@ -21,9 +21,12 @@ public:
 
 public:
 	//
-	// ƒf[ƒ^‚ÌƒL[‚Æ‚È‚é GameplayTag ‚Æ’l‚Ìƒ}ƒbƒsƒ“ƒOƒŠƒXƒg
+	// ãƒ‡ãƒ¼ã‚¿ã®ã‚­ãƒ¼ã¨ãªã‚‹ GameplayTag ã¨å€¤ã®ãƒãƒƒãƒ”ãƒ³ã‚°ãƒªã‚¹ãƒˆ
 	//
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, meta = (ForceInlineRow, Categories = "DataBase"))
 	TMap<FGameplayTag, float> Parameters;
+
+public:
+	virtual void OnDataTableChanged(const UDataTable* InDataTable, const FName InRowName) override;
 
 };

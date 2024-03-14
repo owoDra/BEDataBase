@@ -6,30 +6,31 @@
 ////////////////////////////////////
 // DataBase.Weapon.Katana
 
-UE_DEFINE_GAMEPLAY_TAG(TAG_DataBase_Weapon_Katana_Normal_First_Size, "DataBase.Weapon.Katana.Normal.First.Size");
-UE_DEFINE_GAMEPLAY_TAG(TAG_DataBase_Weapon_Katana_Normal_First_Speed, "DataBase.Weapon.Katana.Normal.First.Speed");
-UE_DEFINE_GAMEPLAY_TAG(TAG_DataBase_Weapon_Katana_Normal_First_Damage, "DataBase.Weapon.Katana.Normal.First.Damage");
-UE_DEFINE_GAMEPLAY_TAG(TAG_DataBase_Weapon_Katana_Normal_First_Distance, "DataBase.Weapon.Katana.Normal.First.Distance");
-UE_DEFINE_GAMEPLAY_TAG(TAG_DataBase_Weapon_Katana_Normal_First_HeadMultiply, "DataBase.Weapon.Katana.Normal.First.HeadMultiply");
+UE_DEFINE_GAMEPLAY_TAG(TAG_DataBase_Weapon_AttackRadius_Katana_Normal_First, "DataBase.Weapon.AttackRadius.Katana.Normal.First");
+UE_DEFINE_GAMEPLAY_TAG(TAG_DataBase_Weapon_AttackRadius_Katana_Normal_Second, "DataBase.Weapon.AttackRadius.Katana.Normal.Second");
+UE_DEFINE_GAMEPLAY_TAG(TAG_DataBase_Weapon_AttackRadius_Katana_Normal_Third, "DataBase.Weapon.AttackRadius.Katana.Normal.Third");
+UE_DEFINE_GAMEPLAY_TAG(TAG_DataBase_Weapon_AttackRadius_Katana_Charge_Second, "DataBase.Weapon.AttackRadius.Katana.Charge.Second");
 
-UE_DEFINE_GAMEPLAY_TAG(TAG_DataBase_Weapon_Katana_Normal_Second_Size, "DataBase.Weapon.Katana.Normal.Second.Size");
-UE_DEFINE_GAMEPLAY_TAG(TAG_DataBase_Weapon_Katana_Normal_Second_Speed, "DataBase.Weapon.Katana.Normal.Second.Speed");
-UE_DEFINE_GAMEPLAY_TAG(TAG_DataBase_Weapon_Katana_Normal_Second_Damage, "DataBase.Weapon.Katana.Normal.Second.Damage");
-UE_DEFINE_GAMEPLAY_TAG(TAG_DataBase_Weapon_Katana_Normal_Second_Distance, "DataBase.Weapon.Katana.Normal.Second.Distance");
-UE_DEFINE_GAMEPLAY_TAG(TAG_DataBase_Weapon_Katana_Normal_Second_HeadMultiply, "DataBase.Weapon.Katana.Normal.Second.HeadMultiply");
+UE_DEFINE_GAMEPLAY_TAG(TAG_DataBase_Weapon_AttackDistance_Katana_Normal_First, "DataBase.Weapon.AttackDistance.Katana.Normal.First");
+UE_DEFINE_GAMEPLAY_TAG(TAG_DataBase_Weapon_AttackDistance_Katana_Normal_Second, "DataBase.Weapon.AttackDistance.Katana.Normal.Second");
+UE_DEFINE_GAMEPLAY_TAG(TAG_DataBase_Weapon_AttackDistance_Katana_Normal_Third, "DataBase.Weapon.AttackDistance.Katana.Normal.Third");
+UE_DEFINE_GAMEPLAY_TAG(TAG_DataBase_Weapon_AttackDistance_Katana_Charge_Second, "DataBase.Weapon.AttackDistance.Katana.Charge.Second");
 
-UE_DEFINE_GAMEPLAY_TAG(TAG_DataBase_Weapon_Katana_Normal_Third_Size, "DataBase.Weapon.Katana.Normal.Third.Size");
-UE_DEFINE_GAMEPLAY_TAG(TAG_DataBase_Weapon_Katana_Normal_Third_Speed, "DataBase.Weapon.Katana.Normal.Third.Speed");
-UE_DEFINE_GAMEPLAY_TAG(TAG_DataBase_Weapon_Katana_Normal_Third_Damage, "DataBase.Weapon.Katana.Normal.Third.Damage");
-UE_DEFINE_GAMEPLAY_TAG(TAG_DataBase_Weapon_Katana_Normal_Third_Distance, "DataBase.Weapon.Katana.Normal.Third.Distance");
-UE_DEFINE_GAMEPLAY_TAG(TAG_DataBase_Weapon_Katana_Normal_Third_HeadMultiply, "DataBase.Weapon.Katana.Normal.Third.HeadMultiply");
+UE_DEFINE_GAMEPLAY_TAG(TAG_DataBase_Weapon_AttackSpeed_Katana_Normal_First, "DataBase.Weapon.AttackSpeed.Katana.Normal.First");
+UE_DEFINE_GAMEPLAY_TAG(TAG_DataBase_Weapon_AttackSpeed_Katana_Normal_Second, "DataBase.Weapon.AttackSpeed.Katana.Normal.Second");
+UE_DEFINE_GAMEPLAY_TAG(TAG_DataBase_Weapon_AttackSpeed_Katana_Normal_Third, "DataBase.Weapon.AttackSpeed.Katana.Normal.Third");
+UE_DEFINE_GAMEPLAY_TAG(TAG_DataBase_Weapon_AttackSpeed_Katana_Charge_Second, "DataBase.Weapon.AttackSpeed.Katana.Charge.Second");
 
-UE_DEFINE_GAMEPLAY_TAG(TAG_DataBase_Weapon_Katana_Charge_First_ChargeTime, "DataBase.Weapon.Katana.Charge.First.ChargeTime");
-UE_DEFINE_GAMEPLAY_TAG(TAG_DataBase_Weapon_Katana_Charge_First_MoveDuration, "DataBase.Weapon.Katana.Charge.First.MoveDuration");
-UE_DEFINE_GAMEPLAY_TAG(TAG_DataBase_Weapon_Katana_Charge_First_MoveStrength, "DataBase.Weapon.Katana.Charge.First.MoveStrength");
+UE_DEFINE_GAMEPLAY_TAG(TAG_DataBase_Weapon_AttackDamage_Katana_Normal_First, "DataBase.Weapon.AttackDamage.Katana.Normal.First");
+UE_DEFINE_GAMEPLAY_TAG(TAG_DataBase_Weapon_AttackDamage_Katana_Normal_Second, "DataBase.Weapon.AttackDamage.Katana.Normal.Second");
+UE_DEFINE_GAMEPLAY_TAG(TAG_DataBase_Weapon_AttackDamage_Katana_Normal_Third, "DataBase.Weapon.AttackDamage.Katana.Normal.Third");
+UE_DEFINE_GAMEPLAY_TAG(TAG_DataBase_Weapon_AttackDamage_Katana_Charge_Second, "DataBase.Weapon.AttackDamage.Katana.Charge.Second");
 
-UE_DEFINE_GAMEPLAY_TAG(TAG_DataBase_Weapon_Katana_Charge_Second_Size, "DataBase.Weapon.Katana.Charge.Second.Size");
-UE_DEFINE_GAMEPLAY_TAG(TAG_DataBase_Weapon_Katana_Charge_Second_Speed, "DataBase.Weapon.Katana.Charge.Second.Speed");
-UE_DEFINE_GAMEPLAY_TAG(TAG_DataBase_Weapon_Katana_Charge_Second_Damage, "DataBase.Weapon.Katana.Charge.Second.Damage");
-UE_DEFINE_GAMEPLAY_TAG(TAG_DataBase_Weapon_Katana_Charge_Second_Distance, "DataBase.Weapon.Katana.Charge.Second.Distance");
-UE_DEFINE_GAMEPLAY_TAG(TAG_DataBase_Weapon_Katana_Charge_Second_HeadMultiply, "DataBase.Weapon.Katana.Charge.Second.HeadMultiply");
+UE_DEFINE_GAMEPLAY_TAG(TAG_DataBase_Weapon_HeadMultiply_Katana_Normal_First, "DataBase.Weapon.HeadMultiply.Katana.Normal.First");
+UE_DEFINE_GAMEPLAY_TAG(TAG_DataBase_Weapon_HeadMultiply_Katana_Normal_Second, "DataBase.Weapon.HeadMultiply.Katana.Normal.Second");
+UE_DEFINE_GAMEPLAY_TAG(TAG_DataBase_Weapon_HeadMultiply_Katana_Normal_Third, "DataBase.Weapon.HeadMultiply.Katana.Normal.Third");
+UE_DEFINE_GAMEPLAY_TAG(TAG_DataBase_Weapon_HeadMultiply_Katana_Charge_Second, "DataBase.Weapon.HeadMultiply.Katana.Charge.Second");
+
+UE_DEFINE_GAMEPLAY_TAG(TAG_DataBase_Weapon_Misc_Katana_Charge_First_ChargeTime, "DataBase.Weapon.Misc.Katana.Charge.First.ChargeTime");
+UE_DEFINE_GAMEPLAY_TAG(TAG_DataBase_Weapon_Misc_Katana_Charge_First_MoveDuration, "DataBase.Weapon.Misc.Katana.Charge.First.MoveDuration");
+UE_DEFINE_GAMEPLAY_TAG(TAG_DataBase_Weapon_Misc_Katana_Charge_First_MoveStrength, "DataBase.Weapon.Misc.Katana.Charge.First.MoveStrength");
