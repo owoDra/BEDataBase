@@ -1,4 +1,4 @@
-// Copyright (C) 2024 owoDra
+ï»¿// Copyright (C) 2024 owoDra
 
 #pragma once
 
@@ -12,7 +12,7 @@ class UDataTable;
 
 
 /**
- * ƒf[ƒ^ƒx[ƒX‚ğŠÇ—‚·‚éƒTƒuƒVƒXƒeƒ€
+ * ãƒ‡ãƒ¼ã‚¿ãƒ™ãƒ¼ã‚¹ã‚’ç®¡ç†ã™ã‚‹ã‚µãƒ–ã‚·ã‚¹ãƒ†ãƒ 
  */
 UCLASS(BlueprintType)
 class BEDATABASE_API UBEDataBaseSubsystem : public UGameInstanceSubsystem
@@ -43,7 +43,7 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "Data Base")
     virtual bool BuildOnlineEquipmentDataTable(const TArray<uint8> InBytesData);
 
-    UFUNCTION(BlueprintCallable, Category = "Data Base", meta = (ExpandBoolAsExecs = "ReturnValue"))
+    UFUNCTION(BlueprintCallable, BlueprintPure = "false", Category = "Data Base", meta = (ExpandBoolAsExecs = "ReturnValue"))
     virtual bool HasOnlineEquipmentDataTable() const;
 
     UFUNCTION(BlueprintCallable, BlueprintPure = "false", Category = "Data Base")
