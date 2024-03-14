@@ -25,17 +25,22 @@ UE_DECLARE_GAMEPLAY_TAG_EXTERN(TAG_DataBase_Weapon_Misc);
 ////////////////////////////////////
 // DataBase.MainSkill
 
-UE_DECLARE_GAMEPLAY_TAG_EXTERN(TAG_DataBase_MainSkill);
+BEDATABASE_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(TAG_DataBase_MainSkill_Stock);
+BEDATABASE_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(TAG_DataBase_MainSkill_Cooltime);
+UE_DECLARE_GAMEPLAY_TAG_EXTERN(TAG_DataBase_MainSkill_Misc);
 
 
 ////////////////////////////////////
 // DataBase.SubSkill
 
-UE_DECLARE_GAMEPLAY_TAG_EXTERN(TAG_DataBase_SubSkill);
+BEDATABASE_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(TAG_DataBase_SubSkill_Stock);
+BEDATABASE_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(TAG_DataBase_SubSkill_Cooltime);
+UE_DECLARE_GAMEPLAY_TAG_EXTERN(TAG_DataBase_SubSkill_Misc);
 
 
 ////////////////////////////////////
 // DataBase.UltSkill
 
-UE_DECLARE_GAMEPLAY_TAG_EXTERN(TAG_DataBase_UltSkill);
+BEDATABASE_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(TAG_DataBase_UltSkill_Cost);
+UE_DECLARE_GAMEPLAY_TAG_EXTERN(TAG_DataBase_UltSkill_Misc);
 

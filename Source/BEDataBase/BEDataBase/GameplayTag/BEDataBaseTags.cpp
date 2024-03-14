@@ -23,16 +23,21 @@ UE_DEFINE_GAMEPLAY_TAG(TAG_DataBase_Weapon_Misc				, "DataBase.Weapon.Misc");
 ////////////////////////////////////
 // DataBase.MainSkill
 
-UE_DEFINE_GAMEPLAY_TAG(TAG_DataBase_MainSkill	, "DataBase.MainSkill");
+UE_DEFINE_GAMEPLAY_TAG(TAG_DataBase_MainSkill_Stock		, "DataBase.MainSkill.Stock");
+UE_DEFINE_GAMEPLAY_TAG(TAG_DataBase_MainSkill_Cooltime	, "DataBase.MainSkill.Cooltime");
+UE_DEFINE_GAMEPLAY_TAG(TAG_DataBase_MainSkill_Misc		, "DataBase.MainSkill.Misc");
 
 
 ////////////////////////////////////
 // DataBase.SubSkill
 
-UE_DEFINE_GAMEPLAY_TAG(TAG_DataBase_SubSkill	, "DataBase.SubSkill");
+UE_DEFINE_GAMEPLAY_TAG(TAG_DataBase_SubSkill_Stock		, "DataBase.SubSkill.Stock");
+UE_DEFINE_GAMEPLAY_TAG(TAG_DataBase_SubSkill_Cooltime	, "DataBase.SubSkill.Cooltime");
+UE_DEFINE_GAMEPLAY_TAG(TAG_DataBase_SubSkill_Misc		, "DataBase.SubSkill.Misc");
 
 
 ////////////////////////////////////
 // DataBase.UltSkill
 
-UE_DEFINE_GAMEPLAY_TAG(TAG_DataBase_UltSkill	, "DataBase.UltSkill");
+UE_DEFINE_GAMEPLAY_TAG(TAG_DataBase_UltSkill_Cost		, "DataBase.UltSkill.Cost");
+UE_DEFINE_GAMEPLAY_TAG(TAG_DataBase_UltSkill_Misc		, "DataBase.UltSkill.Misc");

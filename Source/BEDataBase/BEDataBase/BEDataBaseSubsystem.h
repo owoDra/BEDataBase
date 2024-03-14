@@ -38,7 +38,7 @@ protected:
 
 public:
 	UFUNCTION(BlueprintCallable, Category = "Data Base", meta = (AdvancedDisplay = "DefaultValue"))
-    virtual float GetEquipmentParameter(const FPrimaryAssetId& AssetId, const FGameplayTag& DataTag, float DefaultValue = 0.0f) const;
+    virtual float GetEquipmentParameter(const FName& Key, const FGameplayTag& DataTag, float DefaultValue = 0.0f) const;
 
 	UFUNCTION(BlueprintCallable, Category = "Data Base")
     virtual bool BuildOnlineEquipmentDataTable(const TArray<uint8> InBytesData);

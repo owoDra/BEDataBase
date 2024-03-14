@@ -18,9 +18,9 @@ void UBEDataBaseSubsystem::Initialize(FSubsystemCollectionBase& Collection)
 }
 
 
-float UBEDataBaseSubsystem::GetEquipmentParameter(const FPrimaryAssetId& AssetId, const FGameplayTag& DataTag, float DefaultValue) const
+float UBEDataBaseSubsystem::GetEquipmentParameter(const FName& Key, const FGameplayTag& DataTag, float DefaultValue) const
 {
-	if (!AssetId.IsValid() || !DataTag.IsValid())
+	if (Key.IsNone() || !DataTag.IsValid())
 	{
 		return DefaultValue;
 	}
@@ -31,14 +31,14 @@ float UBEDataBaseSubsystem::GetEquipmentParameter(const FPrimaryAssetId& AssetId
 
 	if (HasOnlineEquipmentDataTable())
 	{
-		Entry = OnlineEquipmentDataTable->FindRow<FBEEquipDataBaseEntry>(FName(AssetId.ToString()), TEXT("Get Entry From Online Equip Data Table"));
+		Entry = OnlineEquipmentDataTable->FindRow<FBEEquipDataBaseEntry>(Key, TEXT("Get Entry From Online Equip Data Table"));
 	}
 
 	// オンラインさーぶすから取得できなかった場合はデフォルトのデータテーブルを参照する
 
-	if (!Entry)
+	if (!Entry && DefaultEquipmentDataTable)
 	{
-		Entry = DefaultEquipmentDataTable->FindRow<FBEEquipDataBaseEntry>(FName(AssetId.ToString()), TEXT("Get Entry From Default Equip Data Table"));
+		Entry = DefaultEquipmentDataTable->FindRow<FBEEquipDataBaseEntry>(Key, TEXT("Get Entry From Default Equip Data Table"));
 	}
 
 	// エントリーが見つかったらパラメーターを取得する
