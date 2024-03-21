@@ -43,3 +43,4 @@ UE_DEFINE_GAMEPLAY_TAG(TAG_DataBase_Weapon_HeadMultiply_Dagger_Special_Second, "
 
 UE_DEFINE_GAMEPLAY_TAG(TAG_DataBase_Weapon_Misc_Dagger_Special_First_MoveDuration, "DataBase.Weapon.Misc.Dagger.Special.First.MoveDuration");
 UE_DEFINE_GAMEPLAY_TAG(TAG_DataBase_Weapon_Misc_Dagger_Special_First_MoveStrength, "DataBase.Weapon.Misc.Dagger.Special.First.MoveStrength");
+UE_DEFINE_GAMEPLAY_TAG(TAG_DataBase_Weapon_Misc_Dagger_Special_First_Cooltime, "DataBase.Weapon.Misc.Dagger.Special.First.Cooltime");
